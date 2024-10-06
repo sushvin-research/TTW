@@ -1,0 +1,1 @@
+echo main.tex | entr -p pandoc -s main.tex -o index.html --filter=filter.py --css=style.css

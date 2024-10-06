@@ -1,0 +1,78 @@
+body {
+    max-width: 960px;
+    width: calc(100% - 1rem);
+    margin: 3.5rem auto;
+    padding: 4px;
+}
+
+header#title-block-header h1.title {
+    font-weight: 300;
+}
+
+header#title-block-header h1.title span strong {
+    font-weight: bold;
+}
+
+header#title-block-header h1.title span em {
+    font-style: italic;
+}
+
+h1.title, p.author {
+    text-align: center;
+    font-size: 2rem;
+}
+
+p.author strong span em {
+    font-size: 1.5rem;
+    font-weight: normal;
+    font-style: italic;
+}
+
+ol {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+}
+
+.action-button {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.action-button:hover {
+    background-color: #0056b3;
+}
+
+.action-button:active {
+    background-color: #004085;
+}
+
+p span span strong {
+    text-align: center;
+    font-size: 2rem;
+}
+
+p span span em {
+    font-size: 2rem;
+}
+
+h1.unnumbered span em {
+    font-size: 1.5rem;
+    font-weight: normal;
+    font-style: italic;
+}
+
+h1.unnumbered {
+    font-size: 1.5rem;
+}
